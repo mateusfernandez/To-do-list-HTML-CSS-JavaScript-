@@ -1,0 +1,87 @@
+button{
+    background-color: rgb(45, 45, 156);
+    color: antiquewhite;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 20%;
+}
+
+button:hover{
+    background-color: rgb(78, 78, 236);
+    height: 45px;
+}
+
+button:active{
+    background-color: rgb(123, 123, 255);
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(45, 45, 156);
+    text-align: center;
+    
+}
+
+body{
+    background-color: rgb(48, 48, 48);
+    max-width: 500px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+input{
+    height: 40px;
+    border: 2px, solid, rgb(45, 45, 156);
+    background-color: #333;
+    color: #eee;
+    width: 74%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+li{
+    width: 95%;
+    background-color: rgb(78, 78, 236);
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 3px;
+    color: #eee;
+    height: 3%;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+span {
+    cursor: pointer;
+}
+
+
+.favorita {
+    background-color: #fff3b0;
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+    height: 3%;
+}
+
+.texto {
+    flex: 1; /* ocupa todo o espaço disponível */
+}
+
+.favorito,
+.excluir {
+    cursor: pointer;
+    margin-left: 10px;
+}
